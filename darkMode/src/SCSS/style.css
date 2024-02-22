@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Michroma&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,200;0,500;0,600;0,700;0,800;0,900;1,300;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body .darkMode {
+  background-image: url(https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_1280.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 715px;
+}
+body .darkMode .opp {
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.3843137255);
+}
+body .darkMode .opp .container {
+  max-width: 1340px;
+  margin: auto;
+  padding: 100px;
+}
+body .darkMode .opp .container #sides {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+body .darkMode .opp .container #sides .left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: #022256;
+  max-width: 600px;
+}
+body .darkMode .opp .container #sides .left-side h2 {
+  font-size: 70px;
+}
+body .darkMode .opp .container #sides .left-side p {
+  line-height: 2rem;
+  font-size: 20px;
+}
+body .darkMode .opp .container #sides .left-side button {
+  background-color: rgb(58, 58, 86);
+  border: 1px solid rgb(58, 58, 86);
+  border-radius: 5px;
+  width: 180px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+body .darkMode .opp .container #sides .right-side {
+  text-align: center;
+}
+body .darkMode .opp .container #sides .right-side .big {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #a6b7d5;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+body .darkMode .opp .container #sides .right-side .big .little {
+  position: absolute;
+  top: 0px;
+  right: 3px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #a6b7d5;
+  background-image: url(https://cdn.pixabay.com/photo/2013/07/13/12/12/sun-159392_640.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.3s linear;
+}
+body.dark-mode .opp {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.686);
+}
+body.dark-mode .opp .left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff !important;
+  max-width: 600px;
+}
+body.dark-mode .opp .left-side h2 {
+  font-size: 70px;
+  color: #83b8d2;
+}
+body.dark-mode .opp .left-side p {
+  font-size: 20px;
+}
+body.dark-mode .opp .left-side button {
+  background-color: #83b8d2 !important;
+  border: 1px solid rgb(58, 58, 86);
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-weight: 600;
+  color: #022256 !important;
+  font-size: 20px;
+}
+body.dark-mode .opp .right-side {
+  text-align: center;
+}
+body.dark-mode .opp .right-side .big {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #292a3c !important;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+body.dark-mode .opp .right-side .big .little {
+  position: absolute;
+  transform: translate(0);
+  transform: translate(-80%);
+  transition: all 0.3s linear;
+  overflow: hidden;
+  top: 0px;
+  right: 3px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url(https://i.pinimg.com/564x/a6/e4/cb/a6e4cb0ff4ed76ed0d0d4e30c23e4cb1.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}/*# sourceMappingURL=style.css.map */
